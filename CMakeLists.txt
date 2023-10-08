@@ -19,6 +19,10 @@ add_executable(hello_algo
         hello.cpp
         binary_search.cpp
         binary_search_test.cpp
+        binary_search_insertion_simple.cpp
+        binary_search_insertion_simple_test.cpp
+        binary_search_insertion.cpp
+        binary_search_insertion_test.cpp
         )
 
 # 包含头文件
