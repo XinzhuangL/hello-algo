@@ -17,16 +17,18 @@ add_executable(hello_algo
         main.cpp
         hello_test.cpp
         hello.cpp
-        binary_search.cpp
-        binary_search_test.cpp
-        binary_search_insertion_simple.cpp
-        binary_search_insertion_simple_test.cpp
-        binary_search_insertion.cpp
-        binary_search_insertion_test.cpp
-        binary_search_left_edge.cpp
-        binary_search_left_edge_test.cpp
-        binary_search_edge.cpp
-        binary_search_edge_test.cpp
+        search/binary_search.cpp
+        search/binary_search_test.cpp
+        search/binary_search_insertion_simple.cpp
+        search/binary_search_insertion_simple_test.cpp
+        search/binary_search_insertion.cpp
+        search/binary_search_insertion_test.cpp
+        search/binary_search_left_edge.cpp
+        search/binary_search_left_edge_test.cpp
+        search/binary_search_edge.cpp
+        search/binary_search_edge_test.cpp
+        search/two_sum.cpp
+        search/two_sum_test.cpp
         )
 
 # 包含头文件
