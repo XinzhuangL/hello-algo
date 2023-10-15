@@ -31,6 +31,8 @@ add_executable(hello_algo
         search/two_sum_test.cpp
         sort/select_sort.cpp
         sort/select_sort_test.cpp
+        sort/bubble_sort.cpp
+        sort/bubble_sort_test.cpp
         )
 
 # 包含头文件
