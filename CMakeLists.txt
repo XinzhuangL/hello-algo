@@ -29,6 +29,8 @@ add_executable(hello_algo
         search/binary_search_edge_test.cpp
         search/two_sum.cpp
         search/two_sum_test.cpp
+        sort/select_sort.cpp
+        sort/select_sort_test.cpp
         )
 
 # 包含头文件
