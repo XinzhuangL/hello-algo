@@ -33,6 +33,8 @@ add_executable(hello_algo
         sort/select_sort_test.cpp
         sort/bubble_sort.cpp
         sort/bubble_sort_test.cpp
+        sort/quick_sort.cpp
+        sort/quick_sort_test.cpp
         )
 
 # 包含头文件
