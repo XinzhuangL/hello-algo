@@ -37,6 +37,8 @@ add_executable(hello_algo
         sort/quick_sort_test.cpp
         sort/merge_sort.cpp
         sort/merge_sort_test.cpp
+        base/my_heap.cpp
+        base/my_heap_test.cpp
         )
 
 # 包含头文件
