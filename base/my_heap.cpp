@@ -6,6 +6,13 @@
 
 std::vector<int> maxHeap;
 
+void MaxHeap(std::vector<int> nums) {
+    maxHeap = nums;
+    // 堆化除叶节点以外的其他所有节点
+    for(int i = parent(size() - 1); i >= 0; i--) {
+        siftDown(i);
+    }
+}
 int size() {
     return maxHeap.size();
 }

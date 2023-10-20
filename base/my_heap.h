@@ -8,6 +8,8 @@
 
 extern std::vector<int> maxHeap;
 
+
+void MaxHeap(std::vector<int> nums);
 bool isEmpty();
 int size();
 int left(int i);
