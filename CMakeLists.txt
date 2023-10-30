@@ -39,7 +39,9 @@ add_executable(hello_algo
         sort/merge_sort_test.cpp
         base/my_heap.cpp
         base/my_heap_test.cpp
-        )
+        sort/heap_sort.cpp
+        sort/heap_sort.h
+        sort/heap_sort_test.cpp)
 
 # 包含头文件
 target_include_directories(
