@@ -41,7 +41,10 @@ add_executable(hello_algo
         base/my_heap_test.cpp
         sort/heap_sort.cpp
         sort/heap_sort.h
-        sort/heap_sort_test.cpp)
+        sort/heap_sort_test.cpp
+        sort/bucket_sort.cpp
+        sort/bucket_sort.h
+        sort/bucket_sort_test.cpp)
 
 # 包含头文件
 target_include_directories(
